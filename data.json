@@ -3,7 +3,7 @@
     "name": "Chef Kisan Raval",
     "tagline": "Culinary Artist | Passion for Authentic Flavors",
     "bio": "With over 5 years of experience in fine dining, I bring traditional recipes to life with a modern twist. My journey through Italian, Indian, and French cuisines has shaped my unique approach to cooking - honoring tradition while embracing innovation.",
-    "profileImage": "https://jyotraval.github.io/wakeupbowl/img/chef_kisan_raval.jpg",
+    "profileImage": "https://raw.githubusercontent.com/jyotraval/wakeupbowl/refs/heads/main/img/chef_kisan_raval.jpg",
     "contact": {
       "phone": "+919998735299",
       "email": "chef@example.com",
@@ -18,7 +18,7 @@
       "dishes": [
         {
           "name": "chef",
-          "image": "https://jyotraval.github.io/wakeupbowl/img/chef_kisan_raval.jpg?w=800&h=600&fit=crop",
+          "image": "https://raw.githubusercontent.com/jyotraval/wakeupbowl/refs/heads/main/img/chef_kisan_raval.jpg",
           "shortDescription": "NA",
           "fullDescription": "NA<br>",
           "tags": ["NA"]
