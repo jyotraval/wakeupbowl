@@ -3,7 +3,7 @@
     "name": "Chef Kisan Raval",
     "tagline": "Culinary Artist | Passion for Authentic Flavors",
     "bio": "With over 5 years of experience in fine dining, I bring traditional recipes to life with a modern twist. My journey through Italian, Indian, and French cuisines has shaped my unique approach to cooking - honoring tradition while embracing innovation.",
-    "profileImage": "/chef-portfolio/img/chef_kisan_raval.jpg",
+    "profileImage": "/img/chef_kisan_raval.jpg",
     "contact": {
       "phone": "+919876543210",
       "email": "chef@example.com",
@@ -18,7 +18,7 @@
       "dishes": [
         {
           "name": "chef",
-          "image": "/chef-portfolio/img/chef_kisan_raval.jpg?w=800&h=600&fit=crop",
+          "image": "/img/chef_kisan_raval.jpg?w=800&h=600&fit=crop",
           "shortDescription": "NA",
           "fullDescription": "NA<br>",
           "tags": ["NA"]
