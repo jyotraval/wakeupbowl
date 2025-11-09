@@ -1,0 +1,127 @@
+{
+  "chef": {
+    "name": "Chef Kisan Raval",
+    "tagline": "Culinary Artist | Passion for Authentic Flavors",
+    "bio": "With over 5 years of experience in fine dining, I bring traditional recipes to life with a modern twist. My journey through Italian, Indian, and French cuisines has shaped my unique approach to cooking - honoring tradition while embracing innovation.",
+    "profileImage": "/chef-portfolio/img/chef_kisan_raval.jpg",
+    "contact": {
+      "phone": "+919876543210",
+      "email": "chef@example.com",
+      "whatsapp": "+919876543210"
+    }
+  },
+  "cuisines": [
+    {
+      "id": "Chef",
+      "name": "chef",
+      "order": -1,
+      "dishes": [
+        {
+          "name": "chef",
+          "image": "/chef-portfolio/img/chef_kisan_raval.jpg?w=800&h=600&fit=crop",
+          "shortDescription": "NA",
+          "fullDescription": "NA<br>",
+          "tags": ["NA"]
+        }
+      ]
+    },
+    {
+      "id": "italian",
+      "name": "Italian",
+      "order": 1,
+      "dishes": [
+        {
+          "name": "Pasta Carbonara",
+          "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&h=600&fit=crop",
+          "shortDescription": "Creamy Roman classic with pancetta and pecorino",
+          "fullDescription": "Traditional Roman pasta dish made with eggs, pecorino cheese, guanciale, and black pepper. A perfect harmony of simple ingredients creating an unforgettable comfort food experience.",
+          "tags": ["signature", "popular", "non-veg"]
+        },
+        {
+          "name": "Margherita Pizza",
+          "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=600&fit=crop",
+          "shortDescription": "Wood-fired with fresh mozzarella and basil",
+          "fullDescription": "Classic Neapolitan pizza with San Marzano tomatoes, fresh mozzarella di bufala, extra virgin olive oil, and fresh basil leaves. Baked in a wood-fired oven at 485°C for 90 seconds.",
+          "tags": ["vegetarian", "signature", "classic"]
+        },
+        {
+          "name": "Tiramisu",
+          "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&h=600&fit=crop",
+          "shortDescription": "Classic Italian dessert with espresso and mascarpone",
+          "fullDescription": "Layers of coffee-soaked ladyfingers and rich mascarpone cream, dusted with cocoa powder. A delightful end to any meal with the perfect balance of sweetness and coffee bitterness.",
+          "tags": ["dessert", "vegetarian", "popular"]
+        },
+        {
+          "name": "Risotto ai Funghi",
+          "image": "https://www.giallozafferano.it/images/170-17085/Risotto-ai-funghi_450x300.jpg?w=800&h=600&fit=crop",
+          "shortDescription": "Creamy mushroom risotto with porcini",
+          "fullDescription": "Arborio rice slowly cooked with wild mushrooms, white wine, and parmesan cheese. Each grain perfectly creamy while maintaining a slight bite.",
+          "tags": ["vegetarian", "comfort", "signature"]
+        }
+      ]
+    },
+    {
+      "id": "indian",
+      "name": "Indian",
+      "order": 2,
+      "dishes": [
+        {
+          "name": "Butter Chicken",
+          "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&h=600&fit=crop",
+          "shortDescription": "Tender chicken in rich tomato cream sauce",
+          "fullDescription": "Succulent pieces of tandoori chicken cooked in a velvety tomato-based gravy with butter, cream, and aromatic spices. Served with naan or basmati rice for the ultimate comfort food.",
+          "tags": ["signature", "popular", "non-veg", "spicy"]
+        },
+        {
+          "name": "Palak Paneer",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&h=600&fit=crop",
+          "shortDescription": "Cottage cheese in creamy spinach gravy",
+          "fullDescription": "Fresh cottage cheese cubes in a smooth, aromatic spinach sauce with garlic, ginger, and Indian spices. A nutritious and delicious vegetarian favorite.",
+          "tags": ["vegetarian", "healthy", "popular"]
+        },
+        {
+          "name": "Biryani",
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&h=600&fit=crop",
+          "shortDescription": "Fragrant basmati rice with aromatic spices",
+          "fullDescription": "Layers of basmati rice and marinated meat slow-cooked with saffron, whole spices, and herbs. Each grain infused with flavor, served with raita and shorba.",
+          "tags": ["signature", "non-veg", "spicy", "popular"]
+        },
+        {
+          "name": "Tandoori Chicken",
+          "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&h=600&fit=crop",
+          "shortDescription": "Clay oven roasted chicken with yogurt marinade",
+          "fullDescription": "Chicken marinated in yogurt and spices, cooked in a traditional tandoor clay oven. Smoky, tender, and bursting with flavor.",
+          "tags": ["non-veg", "spicy", "signature"]
+        }
+      ]
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "order": 3,
+      "dishes": [
+        {
+          "name": "Coq au Vin",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&h=600&fit=crop",
+          "shortDescription": "Chicken braised in red wine with mushrooms",
+          "fullDescription": "Classic French dish of chicken slowly braised in Burgundy wine with pearl onions, mushrooms, and bacon. A rustic yet elegant dish perfect for special occasions.",
+          "tags": ["signature", "non-veg", "classic"]
+        },
+        {
+          "name": "Crème Brûlée",
+          "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&h=600&fit=crop",
+          "shortDescription": "Vanilla custard with caramelized sugar crust",
+          "fullDescription": "Silky smooth vanilla bean custard topped with a layer of caramelized sugar that cracks perfectly with each spoonful. The quintessential French dessert experience.",
+          "tags": ["dessert", "vegetarian", "signature"]
+        },
+        {
+          "name": "Beef Bourguignon",
+          "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&h=600&fit=crop",
+          "shortDescription": "Slow-braised beef in red wine sauce",
+          "fullDescription": "Tender beef chunks slow-cooked in red wine with carrots, onions, and herbs. A rich and hearty French classic that melts in your mouth.",
+          "tags": ["non-veg", "comfort", "classic"]
+        }
+      ]
+    }
+  ]
+}
