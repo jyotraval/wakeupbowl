@@ -1,21 +1,21 @@
 :root {
-    /* Light Mode Colors */
-    --bg-light: #FAF8F5;
-    --card-bg-light: #FFFFFF;
-    --text-light: #2C2C2C;
-    --text-secondary-light: #6B6B6B;
-    --accent-light: #D97757;
-    --secondary-light: #8B9D83;
-    --border-light: #E8E4DF;
+    /* Light Mode Colors - Olive theme */
+    --bg-light: #F5F7F2;                /* soft olive-tinted background */
+    --card-bg-light: #FFFFFF;           /* crisp cards on light bg */
+    --text-light: #2C2C2C;              /* primary text */
+    --text-secondary-light: #5B6B55;    /* desaturated olive-gray for secondary text */
+    --accent-light: #6B8E23;            /* olive drab accent */
+    --secondary-light: #A3B18A;         /* sage green secondary */
+    --border-light: #E2E8D5;            /* light sage border */
     
-    /* Dark Mode Colors */
-    --bg-dark: #1A1614;
-    --card-bg-dark: #2A2420;
-    --text-dark: #F5F1ED;
-    --text-secondary-dark: #B8ADA3;
-    --accent-dark: #E89B7E;
-    --secondary-dark: #A4B5A0;
-    --border-dark: #3A3430;
+    /* Dark Mode Colors - Olive theme */
+    --bg-dark: #1E2616;                 /* deep olive background */
+    --card-bg-dark: #262F1B;            /* dark card surface */
+    --text-dark: #F1F5EC;               /* light text on dark */
+    --text-secondary-dark: #C3CFBA;     /* muted light sage for secondary */
+    --accent-dark: #A3B18A;             /* sage accent in dark mode */
+    --secondary-dark: #7F8F6B;          /* muted olive secondary */
+    --border-dark: #2F3A24;             /* dark olive border */
 }
 
 * {
@@ -236,7 +236,7 @@ body.dark-mode {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
     padding: 2rem 1rem 1rem;
     color: white;
 }

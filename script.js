@@ -37,6 +37,14 @@ function toggleTheme() {
     }, 300);
 }
 
+// Image URL helper: prefix relative paths with GitHub raw base
+const IMAGE_BASE_URL = 'https://raw.githubusercontent.com/jyotraval/wakeupbowl/refs/heads/main/';
+function getImageUrl(path) {
+    if (!path) return path;
+    const isAbsolute = /^https?:\/\//i.test(path);
+    return isAbsolute ? path : IMAGE_BASE_URL + path.replace(/^\/+/, '');
+}
+
 // Load data from JSON
 async function loadData() {
     try {
@@ -95,7 +103,7 @@ function renderPage() {
     
     // Update hero section
     const heroImage = document.getElementById('chefImage');
-    heroImage.src = data.chef.profileImage;
+    heroImage.src = getImageUrl(data.chef.profileImage);
     heroImage.alt = data.chef.name;
     
     // Add loading effect
@@ -229,6 +237,7 @@ function createDishCard(dish, index) {
     const card = document.createElement('div');
     card.className = 'carousel-card';
     card.style.animationDelay = `${index * 0.05}s`;
+    const imageUrl = getImageUrl(dish.image);
     
     // Prevent click when dragging
     let clickStartTime = 0;
@@ -262,7 +271,7 @@ function createDishCard(dish, index) {
     
     card.innerHTML = `
         <div class="card-image-container">
-            <img src="${dish.image}" alt="${dish.name}" class="card-image" loading="lazy">
+            <img src="${imageUrl}" alt="${dish.name}" class="card-image" loading="lazy">
             <div class="card-image-overlay">
                 <h4 class="card-title">${dish.name}</h4>
             </div>
@@ -464,7 +473,7 @@ function openModal(dish) {
     const modalDescription = document.getElementById('modalDescription');
     const modalTags = document.getElementById('modalTags');
     
-    modalImage.src = dish.image;
+    modalImage.src = getImageUrl(dish.image);
     modalImage.alt = dish.name;
     modalTitle.textContent = dish.name;
     modalDescription.textContent = dish.fullDescription;
